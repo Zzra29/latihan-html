@@ -1,0 +1,148 @@
+.text {
+    padding: 0px 90px;
+    margin: 0px 85px;
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.7;
+    letter-spacing: normal;
+    font-size: 27px;
+    margin-bottom: 60px;
+    color: #444;
+}
+.text a {
+    color: rgb(57, 116, 193);
+}
+.text a:hover {
+    color: red;
+}
+.picture {
+    width: 700px;
+    height: auto;
+    margin-bottom: 50px;
+}
+.hr {
+    width: 1140px;
+    border: 2px solid black;
+}
+.center{
+    text-align: center;
+}
+.green {
+    color: rgb(90, 224, 90);
+    font-style: italic;
+}
+.down {
+    font-style: italic;
+    margin-left: 180px;
+    color: gray;
+}
+.color {
+    color: red;
+}
+.color2 {
+    color: red;
+    font-weight: bold;
+}
+.underline {
+    color: black;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+.table {
+    width: 1140px;
+    height: auto;
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.table2 {
+    text-align: left;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(209, 105, 0);
+    font-size: 20px;
+}
+.table4 {
+    text-align: left;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 127, 211);
+    font-size: 20px;
+    
+}
+.table5 {
+    text-align: left;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(245, 208, 62);
+    font-size: 20px;
+}
+.table6 {
+    text-align: left;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(8, 202, 8);
+    font-size: 20px;
+}
+.table7 {
+    text-align: left;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.table3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: purple;
+    font-size: 20px;
+}
+.tablee {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tableee {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+.tabel {
+    background-color: black;
+}
+.td1 {
+    background-color: purple;
+}
+.td2 {
+    background-color: rgb(209, 105, 0);
+}
+.td3 {
+    background-color: rgb(8, 202, 8);
+}
+.td4 {
+    background-color: rgb(0, 127, 211);
+}
+.td5 {
+    background-color: black;
+    color: white;
+}
+.tr4 {
+    background-color: rgb(219, 217, 217);
+    font-weight: normal;
+}
+.table22 {
+    width: 570px;
+    height: auto;
+    margin-left: 180px;
+    border-collapse: collapse;
+    border: solid black 1px;
+    font-size: 20px;
+}
+.select {
+    width: 90px;
+}
