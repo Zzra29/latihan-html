@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Article Layout</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#dcdcdc;
+    font-family: Georgia, "Times New Roman", serif;
+    color:#333;
+}
+
+.wrapper{
+    width:760px;
+    margin:0 auto;
+    padding-top:22px;
+    padding-bottom:50px;
+}
+
+/* TITLE */
+.title{
+    width:620px;
+    margin:0 auto 48px;
+    text-align:center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-weight:700;
+    line-height:1.15;
+}
+
+.title a{
+    color:#e36f1f;
+    text-decoration:underline;
+}
+
+/* IMAGE */
+.hero{
+    width:362px;
+    margin:0 auto 48px;
+}
+
+.hero img{
+    width:100%;
+    display:block;
+}
+
+/* ARTICLE */
+.article{
+    width:585px;
+    margin:0 auto;
+}
+
+.article p{
+    font-size:17px;
+    line-height:1.15;
+    margin-bottom:22px;
+}
+
+.article a{
+    color:#7c4ca5;
+    text-decoration:underline;
+}
+
+.article strong{
+    font-weight:700;
+}
+
+.quote{
+    font-style:italic;
+    margin-top:8px;
+    margin-bottom:34px;
+}
+
+/* DIVIDER */
+.divider{
+    border:none;
+    border-top:1px solid #222;
+    margin:38px 0 28px;
+}
+
+.footer-text{
+    font-size:17px;
+    line-height:1.2;
+    margin-bottom:18px;
+}
+
+.footer-text em{
+    font-style:italic;
+}
+
+.credit{
+    font-size:14px;
+    color:#666;
+    font-style:italic;
+}
+</style>
+</head>
+<body>
+
+<div class="wrapper">
+
+    <h1 class="title">
+        <a href="#">
+            Porsche welcomes challenge from Tesla as it adapts to the EV world
+        </a>
+    </h1>
+
+    <div class="hero">
+        <img src="https://via.placeholder.com/362x208" alt="">
+    </div>
+
+    <div class="article">
+
+        <p>
+            <strong>Recently,</strong> the high-end EV world has become a
+            Nurburgring arms race with Porsche and Tesla vying for the best lap
+            at the famed circuit. The <a href="#">Taycan set a record</a> and
+            <a href="#">Tesla</a> CEO Elon Musk decided that the Model S would
+            best it. From early reports, the <a href="#">Fremont company</a>
+            did just that with a heavily modified vehicle.
+        </p>
+
+        <p>
+            Ahead of the Tesla run, I sat down with Porsche's North America
+            <a href="#">CEO</a>, Klaus Zellmer, to talk rivalries, where the
+            <a href="#"><strong>Taycan</strong></a> sits in the EV world and the
+            surprising demographics it's gathered from its subscription service.
+        </p>
+
+        <p class="quote">
+            "Many people are talking about competition and all that. We love
+            competition. We come from the racetrack. The Nurburgring; we love
+            that environment. But first and foremost, we want to present an
+            alternative, carrying the badge Porsche and the brand promise -- to
+            everything that is electric out there right now." Zellmer said.
+        </p>
+
+        <hr class="divider">
+
+        <p class="footer-text">
+            Apple never showed intentions of racing the
+            <strong><u>Nexus 7</u></strong> to the bottom in the tablet game,
+            and the <em><strong>iPhone 5c</strong></em> is proof that it won't
+            do that in the phone arena, either.
+        </p>
+
+        <p class="credit">
+            Infographic by Troy Dunham for Engadget
+        </p>
+
+    </div>
+
+</div>
+
+</body>
+</html>

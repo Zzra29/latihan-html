@@ -1,0 +1,61 @@
+.text {
+    padding: 0px 100px;
+    margin: 0px 100px;
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.5;
+    letter-spacing: normal;
+    font-size: 20px;
+    margin-bottom: 60px;
+    color: black;
+    text-align: justify;
+}
+.texts {
+    font-size: 20px;
+    padding: 0px 100px;
+    margin: 0px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+    font-style: italic;
+    font-weight: 100px;
+}
+
+.pointBlank {
+    font-style: italic;
+    font-weight: bold;
+}
+.gemscool{
+    font-weight: bold;
+}
+.counterTerorist {
+    color: blue;
+}
+.terorist {
+    color: red;
+}
+.newbie {
+    color: purple;
+}
+.deathmach {
+    color: orange;
+}
+.shotGUn {
+    color: orange;
+    font-weight: bold;
+}
+.gcash {
+    font-style: underline;
+}
+.rp1{
+    font-style: italic;
+}
+.rp2 {
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.portal {
+    color: blue;
+    font-style: italic;
+}
