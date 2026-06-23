@@ -1,19 +1,44 @@
-.center{
-    text-align: center;
-    font-size: 20;
-}
 
-.judul {
-    text-decoration: underline;
-    color: rgb(255, 123, 0);
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: 40;
-    margin: 90px;
-}
+    header {
+      text-align: center;     
+    }
 
-.foto {
+    body {
+        text-align: justify;
+        
+    }
+
+    img {
     width: 700px;
     height: auto;
-    margin-bottom: 50px;
-}
+    }
+  
+    .h1 {
+   color: rgb(232, 102, 37);
+   text-decoration: underline;
+    }
+
+    .red {
+        color: red;
+        font-weight: 600;
+    }
+
+    .green {
+        color: rgb(53, 107, 2);
+        font-style: italic;
+        text-decoration: underline;
+    }
+
+    hr {
+        border: 1.5px solid black;
+    }
+
+    table {
+        text-align: center;
+        border-collapse: collapse;
+        border: 1px solid black;
+    }
+
+    table th, table td {
+        padding: 8px;
+    }
