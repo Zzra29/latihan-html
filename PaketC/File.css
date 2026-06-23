@@ -3,14 +3,19 @@
       text-align: center;     
     }
 
-    body {
-        text-align: justify;
-        
-    }
-
     img {
     width: 700px;
     height: auto;
+    }
+
+    body {
+        text-align: justify;
+    }
+
+    .container {
+        text-align: justify;
+        padding: 0px 90px;
+        margin: 0px 85px;
     }
   
     .h1 {
@@ -39,6 +44,6 @@
         border: 1px solid black;
     }
 
-    table th, table td {
-        padding: 8px;
+   table th, table td {
+        padding: 3px 8px 3px 8px;
     }
