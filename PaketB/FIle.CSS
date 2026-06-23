@@ -59,3 +59,17 @@
     color: blue;
     font-style: italic;
 }
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+table th, table td {
+    padding: 3px 15px 3px 15px;
+}
+
+.table2 {
+    text-align: left;
+}

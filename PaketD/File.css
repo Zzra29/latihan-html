@@ -34,4 +34,8 @@ hr {
     table th, table td {
         padding: 3px 8px 3px 8px;
     }
+
+    .table2 {
+        text-align: left;
+    }
     
