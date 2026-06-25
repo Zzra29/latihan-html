@@ -1,94 +1,26 @@
-body{
-    width:900px;
-    margin:0 auto;
-    background:#ececec;
-    font-family:Arial, sans-serif;
-    text-align:justify;
+.border {
+ 
+    text-align: center;
+}
+.yellow {
+    color: rgb(216, 117, 18);
+    text-decoration: none;
+}
+            
+.yellow.a {
+    color: rgb(216, 117, 18);
+    text-decoration: none;
+}
+.table2 {
+    border-collapse: collapse;
 }
 
-header{
-    text-align:center;
+.table1 {
+    border-collapse: collapse;
+    border: 1px solid black;
 }
 
-h1{
-    color:#e67e22;
-    font-size:48px;
+td, th{
+    padding: 0px 5px 0px 5px;
 }
 
-.info{
-    display:flex;
-    gap:40px;
-    align-items:center;
-    margin:20px 0;
-}
-
-.detail{
-    display:flex;
-    gap:40px;
-    margin-bottom:20px;
-    color:#7f8c8d;
-}
-
-.gambar{
-    display:block;
-    margin:auto;
-    width:650px;
-}
-
-.gambar2{
-    display:block;
-    width:500px;
-    margin:20px auto;
-}
-
-p{
-    line-height:1.6;
-}
-
-.warna{
-    color:orangered;
-}
-
-table{
-    border-collapse:collapse;
-}
-
-.form{
-    margin-top:30px;
-}
-
-.form th{
-    background:#00b050;
-    color:white;
-    padding:5px;
-}
-
-.form td{
-    border:1px solid black;
-    padding:5px;
-}
-
-.submit{
-    text-align:center;
-    border:none !important;
-}
-
-.stok{
-    margin-top:30px;
-}
-
-.stok th,
-.stok td{
-    border:1px solid black;
-    padding:8px;
-    text-align:center;
-}
-
-.stok th{
-    background:#f4b183;
-}
-
-.stok tr:last-child th{
-    background:black;
-    color:white;
-}
