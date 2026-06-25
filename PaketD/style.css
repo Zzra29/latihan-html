@@ -12,10 +12,31 @@ body {
 }
 
 .container {
-        text-align: justify;
-        padding: 0px 90px;
-        margin: 0px 85px;
-    }
+    padding: 0px 90px;
+    margin: 0px 85px;
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.7;
+    letter-spacing: normal;
+    font-size: 25px;
+    margin-bottom: 60px;
+    color: #444;
+    text-align: justify;
+}
+
+.container2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+    font-style: italic;
+    font-weight: 100px;
+}
+
+.down {
+    font-style: italic;
+    color: gray;
+    font-size: 16px;
+}
 
 h1 {
     color: rgb(55, 150, 69);
@@ -25,17 +46,17 @@ hr {
     border: 1.5px solid black;
 }
 
- table {
-        text-align: center;
-        border-collapse: collapse;
-        border: 1px solid black;
-    }
+table {
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
 
-    table th, table td {
-        padding: 3px 8px 3px 8px;
-    }
+table th,
+table td {
+    padding: 3px 8px 3px 8px;
+}
 
-    .table2 {
-        text-align: left;
-    }
-    
+.table2 {
+    text-align: left;
+}
